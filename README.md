@@ -32,7 +32,7 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
             <a href="http://s3.amazonaws.com/alexa-static/top-1m.csv.zip" target="_blank">Alexa Top 1 Million sites</a>
         </td>
         <td>
-            Probable Whitelist of the top 1 Million sites from Amazon(Alexa).
+            The top 1 Million sites from Amazon(Alexa). <a href="http://threatglass.com/pages/about" target="_blank">Never</a> use this as a <a href="https://www.netresec.com/?page=Blog&month=2017-04&post=Domain-Whitelist-Benchmark%3a-Alexa-vs-Umbrella" target="_blank">whitelist</a>.
         </td>
     </tr>
     <tr>
@@ -157,18 +157,34 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
     </tr>
     <tr>
         <td>
-            <a href="https://www.cybercure.ai/" target="_blank">Cyber Cure free intelligience feeds</a>
+            <a href="https://www.cybercure.ai/" target="_blank">Cyber Cure free intelligence feeds</a>
         </td>
         <td>
-            CyberCure offers free cyber threat intelligence feeds that includes list of IP addresses that are currently infected and attacking on the internet. list of urls used by malware and list of hash files of known malware that is currently spreading. CyberCure is only using sensors to collect the intelligience with very low false postives. detailed documentation is available as well, <a href="https://docs.cybercure.ai" target="_blank">You can see the documentation here.</a>
+            Cyber Cure offers free cyber threat intelligence feeds with lists of IP addresses that are currently infected and attacking on the internet. There are list of urls used by malware and list of hash files of known malware that is currently spreading. CyberCure is using sensors to collect intelligence with a very low false positive rate. Detailed <a href="https://docs.cybercure.ai" target="_blank">documentation</a> is available as well.
         </td>
     </tr>
     <tr>
         <td>
-            <a href="https://www.cymon.io/" target="_blank">Cymon</a>
+            <a href="https://www.cyberthreatexchange.com/" target="_blank">Cyber Threat Exchange</a>
         </td>
         <td>
-            Cymon is an aggregator of indicators from multiple sources with history, so you have a single interface to multiple threat feeds. It also provides an API to search a database along with a pretty web interface.
+            The Threat Exchange is an online marketplace platform for buying, selling and sharing cyber threat intelligence feeds.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://dataplane.org/" target="_blank">DataPlane.org</a>
+        </td>
+        <td>
+          DataPlane.org is a community-powered Internet data, feeds, and measurement resource for operators, by operators. We provide reliable and trustworthy service at no cost.
+        </td>
+    </tr>
+   <tr>
+        <td>
+            <a href="https://osint.digitalside.it/" target="_blank">DigitalSide Threat-Intel</a>
+        </td>
+        <td>
+          Cointains sets of Open Source Cyber Threat Intellegence indicators, monstly based on malware analysis and compromised URLs, IPs and domains. The purpose of this project is to develop and test new ways to hunt, analyze, collect and share relevants IoCs to be used by SOC/CSIRT/CERT/individuals with minimun effort. Reports are shared in three ways: <a href="https://osint.digitalside.it/Threat-Intel/stix2/" target="_blank">STIX2</a>, <a href="https://osint.digitalside.it/Threat-Intel/csv/" target="_blank">CSV</a> and <a href="https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/" target="_blank">MISP Feed</a>. Reports are published also in the <a href="https://github.com/davidonzo/Threat-Intel/" target="_blank">project's Git repository</a>.
         </td>
     </tr>
     <tr>
@@ -225,6 +241,14 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
         </td>
         <td>
             Listing of latest exploits released.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://intercept.sh/threatlists/" target="_blank">FastIntercept</a>
+        </td>
+        <td>
+	    Intercept Security hosts a number of free IP Reputation lists from their global honeypot network.
         </td>
     </tr>
     <tr>
@@ -293,10 +317,26 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
     </tr>
     <tr>
         <td>
+            <a href="https://infosec.cert-pa.it" target="_blank">Infosec - CERT-PA</a>
+        </td>
+        <td>
+            Malware samples <a href="https://infosec.cert-pa.it/analyze/submission.html" target="_blank">collection and analysis</a>, <a href="https://infosec.cert-pa.it/analyze/statistics.html" target="_blank">blocklist service, <a href="https://infosec.cert-pa.it/cve.html">vulnerabilities database</a> and more. Created and managed my <a href="https://www.cert-pa.it">CERT-PA</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://www.iblocklist.com/lists" target="_blank">I-Blocklist</a>
         </td>
         <td>
             I-Blocklist maintains several types of lists containing IP addresses belonging to various categories. Some of these main categories include countries, ISPs and organizations. Other lists include web attacks, TOR, spyware and proxies. Many are free to use, and available in various formats.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt" target="_blank">IPsum</a>
+        </td>
+        <td>
+            IPsum is a threat intelligence feed based on 30+ different publicly available lists of suspicious and/or malicious IP addresses. All lists are automatically retrieved and parsed on a daily (24h) basis and the final result is pushed to this repository. List is made of IP addresses together with a total number of (black)list occurrence (for each). Created and managed by <a href="https://twitter.com/stamparm">Miroslav Stampar</a>.
         </td>
     </tr>
     <tr>
@@ -518,6 +558,12 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
     </tr>
     <tr>
         <td>
+            <a href="https://portal.underattack.today/" target="_blank">UnderAttack.today</a>
+        </td>
+        <td>UnderAttack is a free intelligence platform, it shares IPs and information about suspicious events and attacks. Registration is free at <a href="https://portal.underattack.today" target="_blank">https://portal.underattack.today</a></td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://urlhaus.abuse.ch">URLhaus</a>
         </td>
         <td>URLhaus is a project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution.</td>
@@ -544,6 +590,14 @@ A certain amount of (domain- or business-specific) analysis is necessary to crea
         </td>
         <td>
             The ZeuS Tracker by <a href="https://www.abuse.ch/" target="_blank">abuse.ch</a> tracks ZeuS Command & Control servers (hosts) around the world and provides you a domain- and a IP-blocklist.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://IOCFeed.mrlooquer.com/" target="_blank">1st Dual Stack Threat Feed by MrLooquer</a>
+        </td>
+        <td>
+Mrlooquer has created the first threat feed focused on systems with dual stack. Since IPv6 protocol has begun to be part of malware and fraud communications, It is necessary to detect and mitigate the threats in both protocols (IPv4 and IPv6).
         </td>
     </tr>
 </table>
@@ -744,7 +798,7 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
             <a href="https://github.com/byt3smith/malstrom" target="_blank">Malstrom</a>
         </td>
         <td>
-            Malstrom aims to be a repository for threat tracking and forensic artifacts, but also stores YARA rules and notes for investigation.
+            Malstrom aims to be a repository for threat tracking and forensic artifacts, but also stores YARA rules and notes for investigation. Note: Github project has been archived (no new contributions accepted).
         </td>
     </tr>
     <tr>
@@ -798,6 +852,14 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
     </tr>
     <tr>
         <td>
+            <a href="https://www.opencti.io/en/" target="_blank">OpenCTI</a>
+        </td>
+        <td>
+            OpenCTI, the Open Cyber Threat Intelligence platform, allows organizations to manage their cyber threat intelligence knowledge and observables. Its goal is to structure, store, organize and visualize technical and non-technical information about cyber threats. Data is structured around a knowledge schema based on the STIX2 standards. OpenCTI can be integrated with other tools and platforms, including MISP, TheHive, and MITRE ATT&CK, a.o.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://www.fireeye.com/services/freeware.html" target="_blank">OpenIOC</a>
         </td>
         <td>
@@ -822,7 +884,7 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
     </tr>
     <tr>
         <td>
-            <a href="https://www.alienvault.com/open-threat-exchange" target="_blank">OTX - Open Threat Exchange</a>
+            <a href="https://otx.alienvault.com" target="_blank">OTX - Open Threat Exchange</a>
         </td>
         <td>
             AlienVault Open Threat Exchange (OTX) provides open access to a global community of threat researchers and security professionals. It delivers community-generated threat data, enables collaborative research, and automates the process of updating your security infrastructure with threat data from any source.
@@ -920,6 +982,14 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
     </tr>
     <tr>
         <td>
+            <a href="https://www.threatpipes.com" target="_blank">ThreatPipes</a>
+        </td>
+        <td>
+            Threat Intelligence Plumbing. ThreatPipes connects threat intelligence sources and security tools so that they can work together in powerful new ways. ThreatPipes streamlines the aggregation, enforcement and sharing of cyber threat intelligence.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://developers.facebook.com/docs/threat-exchange/" target="_blank">ThreatExchange</a>
         </td>
         <td>
@@ -948,14 +1018,6 @@ Frameworks, platforms and services for collecting, analyzing, creating and shari
         </td>
         <td>
             The X-Force Exchange (XFE) by IBM XFE is a free SaaS product that you can use to search for threat intelligence information, collect your findings, and share your insights with other members of the XFE community.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://yara.adlice.com/" target="_blank">Yara Share</a>
-        </td>
-        <td>
-            Yara Share is an online Yara rule editor and sharing platform.
         </td>
     </tr>
     <tr>
@@ -1077,7 +1139,7 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
             <a href="https://github.com/spacepatcher/FireHOL-IP-Aggregator" target="_blank">FireHOL IP Aggregator</a>
         </td>
         <td>
-            Аpplication for keeping feeds from FireHOL <a href="https://github.com/firehol/blocklist-ipsets" target="_blank">blocklist-ipsets</a> (only *.netset and *.ipset files are aggregated) in PostgreSQL with including historical changes. For requests developed HTTP-based API service.
+            Application for keeping feeds from FireHOL <a href="https://github.com/firehol/blocklist-ipsets" target="_blank">blocklist-ipsets</a> with IP addresses appearance history. HTTP-based API service is developed for search requests.
         </td>
     </tr>
     <tr>
@@ -1154,6 +1216,22 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
     </tr>
     <tr>
         <td>
+            <a href="https://github.com/fhightower/ioc-finder" target="_blank">IOC Finder</a>
+        </td>
+        <td>
+            Python library for finding indicators of compromise in text. Uses grammars rather than regexes for improved comprehensibility. As of February, 2019, it parses over 18 indicator types.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/ioc-fang/ioc_fanger" target="_blank">IOC Fanger (and Defanger)</a>
+        </td>
+        <td>
+            Python library for fanging (`hXXp://example[.]com` => `http://example.com`) and defanging (`http://example.com` => `hXXp://example[.]com`) indicators of compromise in text.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://github.com/armbues/ioc_parser" target="_blank">ioc_parser</a>
         </td>
         <td>
@@ -1166,6 +1244,14 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
         </td>
         <td>
             Provides a Python library that allows for basic creation and editing of OpenIOC objects.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/InQuest/python-iocextract" target="_blank">iocextract</a>
+        </td>
+        <td>
+            Extracts URLs, IP addresses, MD5/SHA hashes, email addresses, and YARA rules from text corpora. Includes some encoded and “defanged” IOCs in the output, and optionally decodes/refangs them.
         </td>
     </tr>
     <tr>
@@ -1266,6 +1352,14 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
     </tr>
     <tr>
         <td>
+            <a href="https://github.com/fhightower/onemillion" target="_blank">OneMillion</a>
+        </td>
+        <td>
+            Python library to determine if a domain is in the Alexa or Cisco top, one million domain lists.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://github.com/STIXProject/openioc-to-stix" target="_blank">openioc-to-stix</a>
         </td>
         <td>
@@ -1339,6 +1433,14 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
     </tr>
     <tr>
         <td>
+            <a href="https://github.com/spacepatcher/softrace" target="_blank">Softrace</a>
+        </td>
+        <td>
+            Lightweight National Software Reference Library RDS storage.
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://github.com/SecurityRiskAdvisors/sra-taxii2-server" target="_blank">SRA TAXII2 Server</a>
         </td>
         <td>
@@ -1395,18 +1497,18 @@ All kinds of tools for parsing, creating and editing Threat Intelligence. Mostly
     </tr>
     <tr>
         <td>
-            <a href="https://chrome.google.com/webstore/detail/threatpinch-lookup/ljdgplocfnmnofbhpkjclbefmjoikgke" target="_blank">ThreatPinch Lookup</a>
+            <a href="https://github.com/InQuest/ThreatIngestor" target="_blank">ThreatIngestor</a>
         </td>
         <td>
-            An extension for Chrome that creates hover popups on every page for IPv4, MD5, SHA2, and CVEs. It can be used for lookups during threat investigations.
+            Flexible, configuration-driven, extensible framework for consuming threat intelligence. ThreatIngestor can watch Twitter, RSS feeds, and other sources, extract meaningful information like C2 IPs/domains and YARA signatures, and send that information to other systems for analysis.
         </td>
     </tr>
     <tr>
         <td>
-            <a href="https://www.fidelissecurity.com/resources/fidelis-threatscanner" target="_blank">ThreatScanner</a>
+            <a href="https://chrome.google.com/webstore/detail/threatpinch-lookup/ljdgplocfnmnofbhpkjclbefmjoikgke" target="_blank">ThreatPinch Lookup</a>
         </td>
         <td>
-            ThreatScanner by Fidelis Cybersecurity runs a script to hunt for IOCs or YARA rules on a single machine and automatically generates a report that provides details of suspicious artifacts.
+            An extension for Chrome that creates hover popups on every page for IPv4, MD5, SHA2, and CVEs. It can be used for lookups during threat investigations.
         </td>
     </tr>
     <tr>
@@ -1632,7 +1734,7 @@ All kinds of reading material about Threat Intelligence. Includes (scientific) r
     </tr>
     <tr>
         <td>
-            <a href="https://www.ncsc.gov.uk/content/files/protected_files/guidance_files/MWR_Threat_Intelligence_whitepaper-2015.pdf" target="_blank">Threat Intelligence: Collecting, Analysing, Evaluating</a>
+            <a href="https://www.mwrinfosecurity.com/assets/Whitepapers/Threat-Intelligence-Whitepaper.pdf" target="_blank">Threat Intelligence: Collecting, Analysing, Evaluating</a>
         </td>
         <td>
             This report by MWR InfoSecurity clearly describes several different types of threat intelligence, including strategic, tactical and operational variations. It also discusses the processes of requirements elicitation, collection, analysis, production and evaluation of threat intelligence. Also included are some quick wins and a maturity model for each of the types of threat intelligence defined by MWR InfoSecurity.
